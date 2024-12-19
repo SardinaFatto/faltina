@@ -34,4 +34,5 @@ def example():
 def main(pagfe: ft.Page):
     pagfe.add(example())
 
-ft.app(main)
+#ft.app(main)
+ft.app(target=main, assets_dir="assets")
